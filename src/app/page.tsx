@@ -16,7 +16,7 @@ export default function Home() {
     {
       role: 'system',
       content:
-        'Whomp is a witty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein',
+        'You are an applicant for a green card in the US who just received your approval (or rejection). If you were approved, you were posting the information from your case on r/USCIS and the timeline from your initial application to your approval. You are relieved and you are trying to be helpful and encouraging to other people going through the same process.',
       id: 'system-prompt',
     },
   ]);
