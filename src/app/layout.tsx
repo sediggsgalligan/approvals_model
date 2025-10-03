@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AI Poet Chatbot',
-  description: 'A chatbot that speaks in poetic verse',
+  title: 'Approved Applicants',
+  description: 'A chatbot that speaks as everyone who got their I-485 approved',
 };
 
 export default function RootLayout({
