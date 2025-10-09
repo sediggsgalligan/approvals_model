@@ -10,7 +10,7 @@ export async function POST(request: Request) {
     const { messages } = await request.json();
 
     const completion = await openai.chat.completions.create({
-      model: 'ft:gpt-4.1-nano-2025-04-14:sap-labs-us:uscis:CMRDjS2y',
+      model: 'ft:gpt-4.1-nano-2025-04-14:sap-labs-us:co-poet:COZ65hAP',
       messages,
       stream: false,
     });
